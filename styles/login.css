@@ -84,12 +84,12 @@
     font-weight: bold;
 }
 
-.logo{
+.logo{ /*posição da logo*/
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
 .logo > img{
-    height: 100px;
+    height: 80px; /*ajusta tamanho imagem na tela*/
 }
