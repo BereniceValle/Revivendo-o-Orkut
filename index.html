@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Orkut</title>
 </head>
 <body>
+
+    <div class="logo">
+        <img src="imgs/logo-orkut.png" alt="">
+    </div>
+    <!--criei a div container e -->
+    <div class="container"> 
+        <div class="fields">
+
+            <div class="fields__title">
+                <p id="fields__title">Acesse o <span class="pink-font">Orkut</span> com a sua conta <span style="color: rgb(255, 0, 24);">G</span><span style="color: rgb(255, 165, 44);">o</span><span style="color: rgb(255, 255, 65);">o</span><span style="color: rgb(0, 128, 24);">g</span><span style="color: rgb(0, 0,249 );">l</span><span style="color: rgb(134, 0, 125 );">e</span>!</p>
+            </div>
+
+            <div class="fields__textboxs">
+                <input type="email" placeholder="Digite e-mail ou telefone" name="" id="fields__email">
+                <input type="password" placeholder="Digite sua senha" name="" id="fields__pass">
+            </div>
+
+            <div class="fields__remember">
+                <input type="checkbox" name="" id="fields__remember">
+                <label for="fields__remember">Lembrar sempre minha senha</label> <!-- O "for" indica a quem essa "label" pertence-->
+            </div>
+
+            <div class="fields__buttons">
+                <button id="btnlogin">Entrar</button>
+            </div>
+
+            <div class="fields__recovery">
+                <a href="#">Esqueci e-mail ou senha</a>
+            </div>
+
+            <div class="fields__create">
+                <a href="#">Não tem conta? <span class="pink-font">Criar agora</span></a>
+            </div>
+
+        </div>
+    </div>
     
 </body>
 </html>
