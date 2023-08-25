@@ -4,7 +4,7 @@
 }
 
 .container{
-    width:80%; /*altura do container*/
+    width:70%; /*altura do container*/
     height: 60vh; /*vh=viewport height*/
     background-color: #ffffff;
     border-radius: 20px; /*border arredondada*/
