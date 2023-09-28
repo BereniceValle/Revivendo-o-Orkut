@@ -1,7 +1,4 @@
-:root{
-    background-color: #f0c9ea;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-}
+
 
 .container{
     width:70%; /*altura do container*/
@@ -21,9 +18,7 @@
     margin: 5% 10%;
 }
 
-.pink-font{
-    color: #e8258e;
-}
+
 
 .fields__title{
     display: flex;
@@ -59,7 +54,6 @@
 #btnlogin{
     width: 100%;
     border: none;
-    background-color: #e8258e;
     color: #ffffff;
     padding: 10px;
     border-radius: 10px;
@@ -82,6 +76,8 @@
     justify-content: center;
     font-size: 15px;
     font-weight: bold;
+    align-items: flex-end;
+    
 }
 
 .logo{ /*posição da logo*/
